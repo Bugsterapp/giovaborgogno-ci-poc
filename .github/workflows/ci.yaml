@@ -30,6 +30,8 @@ jobs:
           curl -sSL https://raw.githubusercontent.com/Bugsterapp/bugster-cli/main/scripts/install.py | python3
           echo "Installing Playwright MCP"
           npx -y @playwright/mcp@latest --version
+          echo "Installing Browser"
+          npx -y playwright@1.53.0-alpha-2025-05-27 install --with-deps chrome
 
       - name: Run tests
         run: |
