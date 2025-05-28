@@ -1,0 +1,8 @@
+- name: Basic Login Test
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
