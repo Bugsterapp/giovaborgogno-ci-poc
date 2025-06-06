@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -11,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: https://fake.app.com
+      url: https://dev.app.kairozai.com
     steps:
       - name: Deploy
         run: echo "Deploying to Production"
