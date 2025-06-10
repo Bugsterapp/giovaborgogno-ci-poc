@@ -14,24 +14,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
       - name: Install dependencies
         run: |
           echo "Installing Bugster CLI"
-          curl -sSL https://raw.githubusercontent.com/Bugsterapp/bugster-cli/main/scripts/install.py | python3
-          echo "Installing Playwright MCP"
-          npx -y @playwright/mcp@latest --version
-          echo "Installing Browser"
-          npx -y playwright@1.53.0-alpha-2025-05-27 install --with-deps chrome
+          curl -fsSL https://raw.githubusercontent.com/Bugsterapp/bugster-cli/giovaborgogno/DEV-33/scripts/install.sh | bash -s -- -v v0.2.9-beta.13 -y
 
       - name: Run tests
         run: |
