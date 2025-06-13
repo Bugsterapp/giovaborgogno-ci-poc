@@ -1,4 +1,4 @@
-- name: Basic Login Test
+- name: Basic Login Test 1
   task: Verify that users can log in with valid credentials
   expected_result: User should be successfully logged in and redirected to the dashboard
   steps:
@@ -6,4 +6,84 @@
     - Enter valid credentials
     - Click login button
     - Verify successful login
-    - Finally close the browser
+
+- name: Basic Login Test 2
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 3
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 4
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 5
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 6
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 7
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 8
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 9
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
+
+- name: Basic Login Test 10
+  task: Verify that users can log in with valid credentials
+  expected_result: User should be successfully logged in and redirected to the dashboard
+  steps:
+    - Navigate to login page
+    - Enter valid credentials
+    - Click login button
+    - Verify successful login
